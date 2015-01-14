@@ -5,8 +5,8 @@ public class Objects {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(Man.getPopulation());
-		Man bolek = new Man("Nabuchonodozor", 3600);
-		Man lolek = new Man("Wies³aw", 342);
+		Man bolek = new Man("Nabuchonodozor", 3600, 180);
+		Man lolek = new Man("Wies³aw", 342, 190);
 		System.out.println("Name: " + bolek.name + ", " + "Age: " + bolek.age);
 		System.out.println("Name: " + lolek.name + ", " + "Age: " + lolek.age);
 		bolek.name = "Bartek";
@@ -33,7 +33,7 @@ class Man {
     int weight;
     
     public double calculateBMI() { 
-    
+    return 0;
     }
    
 	public Man() {
